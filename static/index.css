@@ -1,0 +1,163 @@
+    html {
+        background:black;
+    }
+    body {
+        height:100%;
+        width:100%;
+        margin:0;
+        padding:0;
+    }
+    #map {
+        height:100%;
+        width:100%;
+        position:absolute;
+        top:0;
+        bottom:0;
+    }
+    .leaflet-container {
+        background:black;
+    }
+    /* The Leaflet zoom buttons position */
+    .leaflet-control-container {
+        background:black;
+        position: relative;
+        top: 20px;
+    }
+    .leaflet-control-attribution {
+        font-size: 14px;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        opacity:0.4;
+        color: grey !important;
+        background: black !important;
+    }
+    .leaflet-popup-content-wrapper {
+        background-color: #151515;
+        opacity: 0.9;
+    }
+    .leaflet-popup-tip-container .leaflet-popup-tip {
+        background-color: #151515;
+        opacity: 0.9;
+    }
+    .leaflet-popup-content {
+        font-size: 14px;
+        color: #E20074;
+    }
+    .circle {
+        height:18px;
+        width:18px;
+        border-radius:50%;
+        margin:0 auto;
+        z-index:999;
+    }
+    #informIP {
+        display:none;
+        height:auto;
+        width:250px;
+        position:absolute;
+        bottom:20%;
+        left:10%;
+        padding:15px;
+        border-radius:25px;
+        background:#666161;
+        opacity:0.9;
+    }
+    #informIP #fechar{
+        float:right;
+        left:90%;
+        border-radius:25px;
+        color:red;
+        font-style:oblique;
+    }
+    #informIP #blockIP{
+        position:relative;
+        left:30%;
+        padding:10px;
+        font-weight:bold;
+        box-shadow:1px 1px;
+    }
+    #informIP h3{
+        font-size:1.4em;
+        padding:0px;
+	    color:#ffffff;
+    }
+    /* Container on top, left of the page */
+    .myStats {
+        background-color: rgba(0, 0, 0, 0.6);
+        color: white;
+        position: relative;
+        z-index:999;
+    }
+    /* Some CSS will always be overwritten, avoiding it with all: initial; */
+    .myStatsHeader {
+        all: initial;
+        position: relative;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        opacity: 0.6;
+        padding-left: 20px;
+        white-space:nowrap;
+        border-spacing: 0px;
+        text-align:right;
+        margin-left: 0px;
+        text-align:right
+    }
+    /* The value will be displayed in white for better readability */
+    .myStatsValue {
+        all: initial;
+        position: relative;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: white;
+        opacity: 1.0;
+        padding-left: 20px;
+        white-space:nowrap;
+        border-spacing: 0px;
+        text-align:right;
+        margin-left: 40px;
+        text-align:right
+    }
+    .container-fluid {
+        height:27%;
+        width:100%;
+        position:absolute;
+        bottom:0.0%;
+        background:black;
+        opacity:0.6;
+        z-index:999;
+    }
+    .row {
+        height:100%;
+    }
+    .row table {
+        height:100%;
+        margin:0px
+    }
+    tbody {
+        height:100%;
+    }
+    table th, td{
+        text-align:center;
+    }
+    th, td {
+        color:white;
+    }
+    .col-md-1 {
+        height:100%;
+        overflow-y:scroll;
+        overflow-x:auto;
+    }
+    .col-md-2 {
+        height:100%;
+        overflow-y:scroll;
+        overflow-x:auto;
+    }
+    .col-md-7 {
+        height:100%;
+        overflow-y:scroll;
+        overflow-x:auto;
+    }
